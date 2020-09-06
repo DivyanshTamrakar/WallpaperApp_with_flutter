@@ -1,0 +1,45 @@
+name: wallyapp
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.8.1
+  firebase_auth: ^0.16.0
+  flutter_login: ^1.0.11
+  google_sign_in: ^4.4.4
+  cloud_firestore: ^0.13.5
+  firebase_storage: ^3.1.5
+  step_progress_indicator: ^0.2.2+5
+  titled_navigation_bar: ^4.1.0
+  flutter_staggered_grid_view: ^0.3.0
+  cached_network_image: ^2.2.0+1
+  image_picker: ^0.6.6+1
+  firebase_ml_vision: ^0.9.3+8
+  flutter_spinkit: ^4.1.2+1
+  firebase_messaging: ^6.0.15
+  flutter_custom_tabs: ^0.6.0
+  rounded_loading_button: ^1.0.6
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
